@@ -1,7 +1,10 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import info.jukov.adventofcode.y2021.solve2021_1_1
+import info.jukov.adventofcode.y2021.solve2021_1_2
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+class Main
+fun main() {
+    println("Advent of code")
+    println()
+    println("2021 task 1 part 1 answer is: ${solve2021_1_1()}")
+    println("2021 task 1 part 2 answer is: ${solve2021_1_2()}")
 }
