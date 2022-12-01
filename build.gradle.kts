@@ -25,5 +25,5 @@ tasks.withType<KotlinCompile> {
 }
 
 application {
-    mainClass.set("MainKt")
+    mainClass.set("info.jukov.adventofcode.MainKt")
 }
