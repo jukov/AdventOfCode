@@ -4,7 +4,7 @@ import Main
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-fun year2021task2part1(): String {
+fun year2021day2part1(): String {
     val reader = BufferedReader(
         InputStreamReader(
             requireNotNull(Main::class.java.getResourceAsStream("2021/2.txt"))
@@ -28,7 +28,7 @@ fun year2021task2part1(): String {
     return (depth * horizontal).toString()
 }
 
-fun year2021task2part2(): String {
+fun year2021day2part2(): String {
     val reader = BufferedReader(
         InputStreamReader(
             requireNotNull(Main::class.java.getResourceAsStream("2021/2.txt"))

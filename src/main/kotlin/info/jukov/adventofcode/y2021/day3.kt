@@ -5,7 +5,7 @@ import info.jukov.adventofcode.util.convertBinaryToDecimal
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-fun year2021task3part1(): String {
+fun year2021day3part1(): String {
     val reader = BufferedReader(
         InputStreamReader(
             requireNotNull(Main::class.java.getResourceAsStream("2021/3.txt"))
@@ -32,7 +32,7 @@ fun year2021task3part1(): String {
     return (gamma * epsilon).toString()
 }
 
-fun year2021task3part2(): String {
+fun year2021day3part2(): String {
     val rows =
         BufferedReader(
             InputStreamReader(
