@@ -17,18 +17,10 @@ abstract class Day {
     }
 
     private fun runPart1(): String {
-        return getReader().let { reader ->
-            val result = part1(reader)
-            reader.close()
-            result
-        }
+        return getReader().use { reader -> part1(reader) }
     }
     private fun runPart2(): String {
-        return getReader().let { reader ->
-            val result = part2(reader)
-            reader.close()
-            result
-        }
+        return getReader().use { reader -> part2(reader) }
     }
 
     private fun getReader() = BufferedReader(
