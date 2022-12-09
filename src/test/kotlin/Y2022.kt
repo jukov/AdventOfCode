@@ -31,4 +31,19 @@ object Y2022 {
     fun year2022day6() {
         Day6.run()
     }
+
+    @Test
+    fun year2022day7() {
+        Day7.run()
+    }
+
+    @Test
+    fun year2022day8() {
+        Day8.run()
+    }
+
+    @Test
+    fun year2022day9() {
+        Day9.run()
+    }
 }
