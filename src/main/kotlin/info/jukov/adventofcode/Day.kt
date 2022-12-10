@@ -13,7 +13,7 @@ abstract class Day {
         get() = "/$year/${day}.txt"
 
     fun run() {
-        println("Year $year day $day part 1: ${runPart1()}, part 2: ${runPart2()}")
+        println("Year $year day $day.\nPart 1:\n${runPart1()}\nPart 2:\n${runPart2()}\n")
     }
 
     private fun runPart1(): String {
