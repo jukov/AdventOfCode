@@ -14,6 +14,8 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+
+    implementation("org.json:org.json:chargebee-1.0")
 }
 
 tasks.test {

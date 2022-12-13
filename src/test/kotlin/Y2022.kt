@@ -46,7 +46,8 @@ object Y2022 {
     fun year2022day9() {
         Day9.run()
     }
-
+//(?!-)
+    //[\[]|[\]]|[,]
     @Test
     fun year2022day10() {
         Day10.run()
@@ -60,5 +61,10 @@ object Y2022 {
     @Test
     fun year2022day12() {
         Day12.run()
+    }
+
+    @Test
+    fun year2022day13() {
+        Day13.run()
     }
 }
