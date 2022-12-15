@@ -155,11 +155,11 @@ object Y2022 {
 
     @Test
     fun year2022day16part1() {
-        Day16.runPart1()
+        Day16().runPart1()
     }
 
     @Test
     fun year2022day16part2() {
-        Day16.runPart2()
+        Day16().runPart2()
     }
 }
