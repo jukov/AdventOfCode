@@ -12,15 +12,11 @@ abstract class Day {
     private val inputPath: String
         get() = "/$year/${day}.txt"
 
-    fun run() {
-        println("Year $year day $day.\nPart 1:\n${runPart1()}\nPart 2:\n${runPart2()}\n")
+    fun runPart1() {
+        println("Year $year day $day. Part 1:\n${getReader().use { reader -> part1(reader) }}")
     }
-
-    private fun runPart1(): String {
-        return getReader().use { reader -> part1(reader) }
-    }
-    private fun runPart2(): String {
-        return getReader().use { reader -> part2(reader) }
+    fun runPart2(){
+        println("Year $year day $day. Part 2:\n${getReader().use { reader -> part2(reader) }}")
     }
 
     private fun getReader() = BufferedReader(
@@ -32,5 +28,4 @@ abstract class Day {
     abstract fun part1(reader: BufferedReader): String
 
     abstract fun part2(reader: BufferedReader): String
-
 }
